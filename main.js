@@ -38,6 +38,12 @@ const winningCond = (gb) => {
 	 winning.forEach(e => {
 	 	if (e == "XXX" || e == "OOO") winner(e); 
 	 });
+
+	 let draw = gb.join("");
+	 	if (draw.length == 9) {
+	 		winner();
+	 		document.getElementById("winner").innerHTML = "A Boring Draw !";
+	 	}
 };
 
 function winner(e) {
