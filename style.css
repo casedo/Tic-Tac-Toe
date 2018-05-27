@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    text-align: center;
+}
+
+header{
+	width: 90%;
+	height: 75px;
+	margin: auto;
+  	color: #58865E;
+  	margin-bottom: 10px;
+  	font-size: 25px;
+}
+
+.greetings{
+	font-size: 20px;
+	margin: auto;
+	width: 50%;
+    padding: 30px 0 50px 0px;
+    background-color: #58865E;
+    border-radius: 25px;
+}
+
+.playerName{
+	color: white;
+	margin: 15px;
+} 
+
+#ply1, #ply2 {margin: 0px 10px 10px 0px;}
+
+input[type=text] {
+    font-size: 16px;
+    padding: 8px 30px;
+    font-weight: bold;
+    border-radius: 10px;
+    width: 35%;
+}
+
+#play {
+	margin-top: 70px;
+	padding: 16px;
+    font-size: 22px;
+    font-weight:bold;
+    cursor: pointer;
+    width: 50%;
+    background-color: #1D211C;
+    color: #BEDCB7;
+} 
+
+#playAgain {
+	padding: 16px;
+	margin: 20px;
+	font-size: 20px;
+	background-color: #58865E;
+	color: white;
+}
+
+.hidden {display: none;}
+
+.main{
+	width: 330px;
+	margin: auto;
+}
+
+.cell{
+	height: 110px;
+	border: 2px solid black;
+	width: 33.3%;
+	float: left;
+}
+
+p{
+	font-size: 32px;
+	font-weight: bold;
+}
+
+span {
+	font-weight: bold;
+	color: #CA7034;
+    text-transform:capitalize;
+    font-size: 18px;
+}
+
+a {
+	text-decoration: none;
+	color: orange;
+}
+
+footer {
+	background-color: #261F1F;
+	color: white;
+	text-align: center;
+	bottom: 0;
+    position: absolute;
+	width:100%;
+   	height:45px; 
+   	left: 0;
+}

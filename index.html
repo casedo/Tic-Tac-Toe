@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css" media="screen"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tic Tac Toe</title>
+</head>
+<body>
+<header><h1>Tic Tac Toe</h1></header>	
+<div class="greetings">
+	<article class="playerName" id="ply1">First Player:</article><input type="text" id="player1" value="Player1">
+	<article class="playerName" id="vs" style="font-size: 25px;">VS</article>
+	<article class="playerName" id="ply2">Second Player:</article><input type="text" id="player2" value="Player2">
+	<br><button id="play">Play</button>
+</div>
+<div class="main hidden">
+	<div class="gameInfo">
+		<article class="hidden" id = "winner">We have a winner: <span id="winnerInfo"></span></article>
+		<article class="" id = "players"><span id="playerInfo"></span> will make a move</article>
+	</div>
+	<div id="grid">
+		<div class="cell" id="0"></div>
+		<div class="cell" id="1"></div>
+		<div class="cell" id="2"></div>
+		<div class="cell" id="3"></div>
+		<div class="cell" id="4"></div>
+		<div class="cell" id="5"></div>
+		<div class="cell" id="6"></div>
+		<div class="cell" id="7"></div>
+		<div class="cell" id="8"></div>
+	</div>
+	<button class= "hidden" id="playAgain">Play Again ?</button>
+</div>
+
+
+<script src="main.js" type="text/javascript"></script>
+<footer><article> © Coded by <b><a href="https://github.com/casedo" target="_blank">Casedo</b> (Caner SEZGIN)</a></article></footer>
+</body>
+</html>
