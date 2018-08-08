@@ -1,6 +1,6 @@
 # TicTacToe
 
-See Project in Browser: https://casedo.github.io/Tic-Tac-Toe/
+See Project in Browser: https://CanerSezgin.github.io/Tic-Tac-Toe/
 
 This is another project which was created as part of OdinProject - Javascript classes. 
 More Details: https://www.theodinproject.com/courses/javascript/lessons/tic-tac-toe-javascript
